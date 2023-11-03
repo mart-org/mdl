@@ -1,5 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { Button } from "../src";
+import ReactDOM from "react-dom/client";
+import { Button } from "react-dev-lib";
 
-ReactDOM.render(<Button text="Button" />, document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <Button text="Button" />
+);
