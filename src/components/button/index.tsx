@@ -1,5 +1,5 @@
-import { Text } from "../../../interfaces";
+import { Text } from "../../interfaces";
 
-export function Button({ Text }: Text) {
-  return <button>{Text}</button>;
+export function Button({ text }: Text) {
+  return <button>{text}</button>;
 }
