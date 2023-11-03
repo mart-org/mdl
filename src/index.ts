@@ -1,1 +1,2 @@
-export * from './components'; 
+import "./sass/index.css";
+export * from "./components";
