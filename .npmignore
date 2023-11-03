@@ -1,6 +1,6 @@
 node_modules
 src
-jest.config.js
+client
 package-lock.json
 tsconfig.json
 .babelrc
