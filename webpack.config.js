@@ -1,5 +1,7 @@
 const path = require("path");
 const miniCssExtractPlugin = require("mini-css-extract-plugin");
+const html = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const mainConfig = {
   entry: "./src/index.ts",
@@ -37,6 +39,10 @@ const mainConfig = {
       },
     ],
   },
+  plugins: [
+    new miniCssExtractPlugin({ filename: "index.css" }),
+    new CopyWebpackPlugin({ patterns: [{ from: "src/sass", to: "sass" }] }), // Copia la carpeta "sass"
+  ],
 };
 
 const clientConfig = {
@@ -72,6 +78,7 @@ const clientConfig = {
       },
     ],
   },
+  plugins: [new html({ filename: "index.html", template: "./app/index.html" })],
 };
 
 // Exportamos ambas configuraciones
