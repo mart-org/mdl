@@ -1,9 +1,10 @@
 node_modules
 src
-test
-types
 jest.config.js
 package-lock.json
 tsconfig.json
 .babelrc
 webpack.config.js
+app
+dist/app
+dist/library.js.LICENCE.txt
