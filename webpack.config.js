@@ -61,6 +61,10 @@ const clientConfig = {
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".jsx"],
   },
+  devServer: {
+    open: true,
+    port: 3000,
+  },
   module: {
     rules: [
       {
