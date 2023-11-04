@@ -3,13 +3,6 @@ const miniCssExtractPlugin = require("mini-css-extract-plugin");
 const html = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-const devServer = {
-  devServer: {
-    open: true,
-    port: 3030,
-  },
-};
-
 const mainConfig = {
   entry: "./src/index.ts",
   output: {
@@ -94,4 +87,4 @@ const clientConfig = {
 };
 
 // Exportamos ambas configuraciones
-module.exports = [mainConfig, clientConfig, devServer];
+module.exports = [mainConfig, clientConfig];
