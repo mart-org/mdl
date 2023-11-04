@@ -1,5 +1,5 @@
-import { Text } from "../../interfaces";
+import { PropsButton } from "../../interfaces";
 
-export function Button({ text }: Text) {
-  return <button>{text}</button>;
+export function Button({ text, onClick }: PropsButton) {
+  return <button onClick={onClick}>{text}</button>;
 }

@@ -1,5 +1,6 @@
-interface Text {
+interface PropsButton {
   text?: string;
+  onClick?: () => void;
 }
 
-export { Text };
+export { PropsButton };

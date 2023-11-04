@@ -11,7 +11,10 @@ button {
   font-size: 14px;
   background-color: #222;
   color: #fff;
+  cursor: pointer;
 }
 button:hover {
-  background-color: #000;
-}/*# sourceMappingURL=index.css.map */
+  background-color: #111;
+}
+
+/*# sourceMappingURL=index.css.map */
