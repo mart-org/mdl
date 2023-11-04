@@ -1,88 +1,124 @@
-# React dev lib
+# react-dev-lib
 
-This is a React library project with TypeScript. The library is located in the `src` folder and contains customizable components that you can use in your React projects.
+React-dev-lib is a tool that allows you to create React libraries quickly and easily. This tool focuses on simplifying the React component development process, allowing you to focus on creating high-quality components instead of dealing with project setup and structure.
 
-## Project structure
+## Using React-dev-lib
 
-- `.babelrc`: Babel configuration file to transpile the code.
-- `.gitignore`: Configuration file to ignore files and folders in Git.
-- `.npmignore`: Configuration file to ignore files and folders in npm.
-- `LICENSE`: Project license.
-- `package-lock.json`: Dependency lock file for npm.
-- `package.json`: npm configuration file that contains the project dependencies.
-- `README.md`: This file you are reading.
-- `tsconfig.json`: TypeScript configuration file.
-- `webpack.config.js`: Webpack configuration file to build the library.
+React-dev-lib takes care of the initial setup and project structure, allowing you to:
 
-### Rugs
+- Focus on developing customizable React components.
+- Streamline the creation of React libraries for reuse across multiple projects.
+- Automate tasks such as the compilation of styles and the generation of documentation.
 
-- `interfaces`: Folder containing TypeScript definitions for interfaces and types.
-- `src`: Main folder of the library.
-  - `index.ts`: Library entry file.
-  - `components`: Folder that contains the library components.
-    - `index.tsx`: Component input file.
-    - `button`: Folder containing a button component.
-      - `index.tsx`: Button component definition file.
-- `types`: Folder containing TypeScript definitions for the library.
+## How to start
 
-## Configuration and development
+To get started using React-dev-lib, follow these steps:
 
-1. Open the `package.json` file and update the following information:
+1. **Clone the Repository**:
 
-   - `"name"`: Name of your library.
-   - `"author"`: Your name or the name of your team.
-   - `"repository"`: URL of your GitHub repository.
-   - `"description"`: A brief description of your library.
-   - `"version"`: The initial version of your library.
-
-2. Clone this repository:
+Clone the React-dev-lib repository:
 
 ```shell
-git clone https://github.com/jefferson-lopez-dev/react-dev-lib.git
-cd react-dev-lib
+     git clone https://github.com/jefferson-lopez-dev/react-dev-lib.git
+     cd react-dev-lib
 ```
 
-3. Install dependencies:
+2. Install Dependencies:
+
+Install the necessary dependencies with the following command:
 
 ```shell
-npm installation
+    npm installation
 ```
 
-4. To build the library in development mode, run:
+3. Component Development:
+
+Develop your customizable components in the src/components directory. React-dev-lib will take care of organizing your project structure and handling compilation tasks automatically.
+
+4. SASS Observer:
+
+To automatically compile styles written in SASS to CSS on every change, you can use SASS watch. Run the following command in a standalone terminal:
+
+```shell
+   npm run watch-sass
+```
+
+This functionality allows you to work efficiently on the appearance of your components.
+
+5. Build in Development Mode:
+
+If you want to build the library in development mode, run:
 
 ```shell
 npm run build
 ```
 
-This will generate a dist folder with the library files.
+This will generate two folders:
+
+client: Contains files related to the client application, such as an HTML file and a JavaScript file for the client application.
+
+dist: Contains the files compiled and optimized for library distribution, including a JavaScript file that contains the compiled library and is ready to be used in other projects.
+
+6. Render a component:
+
+To render a component in an application, you must first export the component you created in the src/index.ts file. This file is responsible for exposing your components for use.
+
+Then, create a file in the folder app called main.tsx. In this file, import the component you created and use it in your application. Here is an example:
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import * as lib from "react-dev-lib";
+import { YourComponent } from "../src/index"; // Make sure you import your component here
+
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+
+root.render(
+    <>
+      <YourComponent
+        text="component"
+      />
+    </>
+);
+
+```
+
+In the example above, we imported your custom component from src/index and rendered it both from the React-dev-lib library and locally in the app. Be sure to replace "YourComponent" with the name of your component.
+
+With these steps, you can easily develop, build, and render your React components with React-dev-lib in your applications.
 
 ## Publishing to npm
 
-If you want to publish your library on npm, follow these steps:
+If you want to share your library with other developers through npm, follow these steps:
 
-1. Sign in to your npm account:
+1. Login to npm:
+
+Log in to your npm account using the following command:
 
 ```shell
 login npm
 ```
 
-2. package and publish the library in npm, run:
+2. Package and Publish to npm:
+
+Package and publish the library to npm by running:
 
 ```shell
 publish npm
 ```
 
-Note: Make sure you have an npm account and permissions to publish packages.
+Make sure you have an npm account and the necessary permissions to publish packages.
 
-## Library update
-
+Library Update
 To update your library in npm, follow these steps:
 
-1. Make the necessary changes to your code.
+Make the necessary changes to your code.
 
-2. Update the library version in package.json.
+Update the library version in the package.json file.
 
-3. Repeat steps 1 and 2 from the "Publishing to npm" section.
+Repeat steps 1 and 2 in the "Publishing to npm" section.
+
+With React-dev-lib, you can build React libraries efficiently and focus on creating high-quality components without worrying about the initial project setup. This tool is ideal for developers who want to speed up their React library development process.
 
 ## React-dev-lib repository
 
