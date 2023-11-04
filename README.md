@@ -28,7 +28,7 @@ cd react-dev-lib
 Install the necessary dependencies with the following command:
 
 ```shell
-npm installation
+npm i
 ```
 
 3. Component Development:
@@ -96,7 +96,7 @@ If you want to share your library with other developers through npm, follow thes
 Log in to your npm account using the following command:
 
 ```shell
-login npm
+npm login
 ```
 
 2. Package and Publish to npm:
@@ -104,19 +104,20 @@ login npm
 Package and publish the library to npm by running:
 
 ```shell
-publish npm
+npm publish
 ```
 
 Make sure you have an npm account and the necessary permissions to publish packages.
 
-Library Update
+## Library Update
+
 To update your library in npm, follow these steps:
 
-Make the necessary changes to your code.
+1. Make the necessary changes to your code.
 
-Update the library version in the package.json file.
+2. Update the library version in the package.json file.
 
-Repeat steps 1 and 2 in the "Publishing to npm" section.
+3. Repeat steps 1 and 2 in the "Publishing to npm" section.
 
 With React-dev-lib, you can build React libraries efficiently and focus on creating high-quality components without worrying about the initial project setup. This tool is ideal for developers who want to speed up their React library development process.
 
