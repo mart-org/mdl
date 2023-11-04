@@ -1,6 +1,6 @@
 {
   "name": "react-dev-lib",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "esta libreria fue creada con el proposito de probar el repository de react-dev-lib que es para crear librerias de una manera rapida y sencilla con react, typescript y sass",
   "main": "dist/index.js",
   "module": "dist/index.js",
