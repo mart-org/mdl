@@ -19,8 +19,8 @@ To get started using React-dev-lib, follow these steps:
 Clone the React-dev-lib repository:
 
 ```shell
-     git clone https://github.com/jefferson-lopez-dev/react-dev-lib.git
-     cd react-dev-lib
+git clone https://github.com/jefferson-lopez-dev/react-dev-lib.git
+cd react-dev-lib
 ```
 
 2. Install Dependencies:
@@ -28,7 +28,7 @@ Clone the React-dev-lib repository:
 Install the necessary dependencies with the following command:
 
 ```shell
-    npm installation
+npm installation
 ```
 
 3. Component Development:
@@ -40,7 +40,7 @@ Develop your customizable components in the src/components directory. React-dev-
 To automatically compile styles written in SASS to CSS on every change, you can use SASS watch. Run the following command in a standalone terminal:
 
 ```shell
-   npm run watch-sass
+npm run watch-sass
 ```
 
 This functionality allows you to work efficiently on the appearance of your components.
