@@ -41,7 +41,7 @@
     "mini-css-extract-plugin": "^2.7.6",
     "node-sass": "^9.0.0",
     "path": "^0.12.7",
-    "react-dev-lib": "^1.3.5",
+    "mart-dl": "^1.3.5",
     "react-dom": "^18.2.0",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
