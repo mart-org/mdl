@@ -1,7 +1,7 @@
 {
-  "name": "react-dev-lib",
-  "version": "1.3.7",
-  "description": "This library has been created with the purpose of testing the react-dev-lib repository, which is designed to facilitate the rapid and straightforward development of libraries using React, TypeScript, and Sass. Our library focuses on providing a versatile and efficient development environment for developers to create, test, and distribute their own React libraries effectively. We simplify the development process, allowing programming professionals to focus on crafting high-quality features and components, rather than being burdened by configuration and tedious tasks. Make the most of react-dev-lib to expedite your development and elevate your projects to the next level.",
+  "name": "mart-dl",
+  "version": "0.0.1",
+  "description": "This library has been created with the purpose of testing the mart-dl repository, which is designed to facilitate the rapid and straightforward development of libraries using React, TypeScript, and Sass. Our library focuses on providing a versatile and efficient development environment for developers to create, test, and distribute their own React libraries effectively. We simplify the development process, allowing programming professionals to focus on crafting high-quality features and components, rather than being burdened by configuration and tedious tasks. Make the most of react-dev-lib to expedite your development and elevate your projects to the next level.",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jefferson-lopez-dev/react-dev-lib.git"
+    "url": "https://github.com/jefferson-lopez-dev/mart-dl.git"
   },
   "keywords": [
     "react",

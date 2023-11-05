@@ -1,10 +1,10 @@
-# react-dev-lib
+# Mart-DL
 
-React-dev-lib is a tool that allows you to create React libraries quickly and easily. This tool focuses on simplifying the React component development process, allowing you to focus on creating high-quality components instead of dealing with project setup and structure.
+Mart-DL is a tool that allows you to create React libraries quickly and easily. This tool focuses on simplifying the React component development process, allowing you to focus on creating high-quality components instead of dealing with project setup and structure.
 
-## Using React-dev-lib
+## Using Mart-DL
 
-React-dev-lib takes care of the initial setup and project structure, allowing you to:
+Mart-Dl takes care of the initial setup and project structure, allowing you to:
 
 - Focus on developing customizable React components.
 - Streamline the creation of React libraries for reuse across multiple projects.
@@ -12,15 +12,15 @@ React-dev-lib takes care of the initial setup and project structure, allowing yo
 
 ## How to start
 
-To get started using React-dev-lib, follow these steps:
+To get started using Mart-DL, follow these steps:
 
 1. **Clone the Repository**:
 
-Clone the React-dev-lib repository:
+Clone the Mart-Dl repository:
 
 ```shell
-git clone https://github.com/jefferson-lopez-dev/react-dev-lib.git
-cd react-dev-lib
+git clone https://github.com/jefferson-lopez-dev/mart-dl.git
+cd mart-dl
 ```
 
 2. Install Dependencies:
@@ -33,7 +33,7 @@ npm i
 
 3. Component Development:
 
-Develop your customizable components in the src/components directory. React-dev-lib will take care of organizing your project structure and handling compilation tasks automatically.
+Develop your customizable components in the src/components directory. Mart-DL will take care of organizing your project structure and handling compilation tasks automatically.
 
 4. SASS Observer:
 
@@ -68,7 +68,7 @@ Then, create a file in the folder app called main.tsx. In this file, import the 
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import * as lib from "react-dev-lib";
+import * as lib from "mart-dl";
 import { YourComponent } from "../src/index"; // Make sure you import your component here
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
@@ -83,9 +83,9 @@ root.render(
 
 ```
 
-In the example above, we imported your custom component from src/index and rendered it both from the React-dev-lib library and locally in the app. Be sure to replace "YourComponent" with the name of your component.
+In the example above, we imported your custom component from src/index and rendered it both from the Mart-DL library and locally in the app. Be sure to replace "YourComponent" with the name of your component.
 
-With these steps, you can easily develop, build, and render your React components with React-dev-lib in your applications.
+With these steps, you can easily develop, build, and render your React components with Mart-DL in your applications.
 
 ## Publishing to npm
 
@@ -119,10 +119,10 @@ To update your library in npm, follow these steps:
 
 3. Repeat steps 1 and 2 in the "Publishing to npm" section.
 
-With React-dev-lib, you can build React libraries efficiently and focus on creating high-quality components without worrying about the initial project setup. This tool is ideal for developers who want to speed up their React library development process.
+With Mart-DL, you can build React libraries efficiently and focus on creating high-quality components without worrying about the initial project setup. This tool is ideal for developers who want to speed up their React library development process.
 
-## React-dev-lib repository
+## Mart-DL repository
 
-You can find the source code for this project at [React-dev-lib](https://github.com/jefferson-lopez-dev/react-dev-lib.git)
+You can find the source code for this project at [Mart-DL](https://github.com/jefferson-lopez-dev/mart-DL.git)
 
 Remember to replace `"your-user"` with your GitHub username and make sure you configure your project correctly before publishing it to npm. This is an example of a `README.md` file that you can customize to your needs.
