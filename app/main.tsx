@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import * as Lib from "react-dev-lib";
+import * as Lib from "mart-dl";
 import { Button } from "../src";
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
