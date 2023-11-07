@@ -10,8 +10,9 @@
     "dev": "npm run watch-dev",
     "watch-dev": "webpack serve --mode development",
     "watch-sass": "sass --watch src/sass/index.scss:src/sass/index.css",
-    "build": "sass src/sass/index.scss:src/sass/index.css && npm run compile && webpack --mode production",
-    "compile": "tsc"
+    "build": "sass src/sass/index.scss:src/sass/index.css && npm run compile && webpack --mode production && npm run cleanup",
+    "compile": "tsc",
+    "cleanup": "node cleanup.js"
   },
   "repository": {
     "type": "git",
