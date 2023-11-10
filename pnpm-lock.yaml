@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  mart-dl:
+    specifier: ^0.0.3
+    version: 0.0.3
   react:
     specifier: ^18
     version: 18.2.0
@@ -5699,6 +5702,13 @@ packages:
     dependencies:
       react: 18.2.0
     dev: true
+
+  /mart-dl@0.0.3:
+    resolution: {integrity: sha512-eXfrlIe/2VXMn5t9QdGBzA106e+MzxEzy2EXhfpAa/22nukorTnaMPiYxaNCCe3f66pWgj7oMp6uthxc9wRwjw==}
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /mdast-util-definitions@4.0.0:
     resolution: {integrity: sha512-k8AJ6aNnUkB7IE+5azR9h81O5EQ/cTDXtWdMq9Kk5KcEW/8ritU5CeLg/9HhOC++nALHBlaogJ5jz0Ybk3kPMQ==}
