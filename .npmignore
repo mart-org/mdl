@@ -1,13 +1,5 @@
-app
-client
-dist/app
-dist/src
-dist/library.js.LICENSE.txt
-library.js
 node_modules
-src
-.babelrc
 .gitignore
-package-lock.json
+pnpm-lock.yaml
 tsconfig.json
-webpack.config.js
+packages/**/**/stories
