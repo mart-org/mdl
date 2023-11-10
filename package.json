@@ -1,8 +1,9 @@
 {
   "name": "mart-dl",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "This library has been created with the purpose of testing the mart-dl repository, which is designed to facilitate the rapid and straightforward development of libraries using React, TypeScript, and Sass. Our library focuses on providing a versatile and efficient development environment for developers to create, test, and distribute their own React libraries effectively. We simplify the development process, allowing programming professionals to focus on crafting high-quality features and components, rather than being burdened by configuration and tedious tasks. Make the most of react-dev-lib to expedite your development and elevate your projects to the next level.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "npm run watch-dev",
     "watch-sass": "sass --watch src/sass/index.scss:src/sass/index.css",
@@ -24,7 +25,7 @@
   "author": "jeffersonlopezmendoza343@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "mart-dl": "^0.0.3",
+    "mart-dl": "^0.0.6",
     "react": "^18",
     "react-dom": "^18.2.0"
   },
