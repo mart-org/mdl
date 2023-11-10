@@ -3,7 +3,7 @@ interface Props {
   text?: string;
 }
 
-export function Button({ label, text }: Props) {
+export function Button2({ label, text }: Props) {
   return (
     <button>
       {label}
