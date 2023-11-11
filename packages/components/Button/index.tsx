@@ -1,7 +1,1 @@
-interface Props {
-  label?: string;
-}
-
-export function Button({ label }: Props) {
-  return <button>{label}</button>;
-}
+export * from "./src/Button";
