@@ -1,7 +1,11 @@
-node_modules
-.gitignore
-pnpm-lock.yaml
-tsconfig.json
-packages
+.github
 .storybook
+node_modules
+packages
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+pnpm-lock.yaml
+SECURITY.md
+tsconfig.json
 storybook-static
