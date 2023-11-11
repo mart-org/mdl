@@ -22,7 +22,7 @@
     "biblioteca",
     "storybook"
   ],
-  "author": "jeffersonlopezmendoza343@gmail.com",
+  "author": "Jefferson Lopez <jeffersonlopezmendoza343@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "mart-dl": "^0.0.6",
