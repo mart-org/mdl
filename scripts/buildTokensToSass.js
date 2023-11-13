@@ -1,10 +1,9 @@
-import { genFilesWithStruct } from "mart-obj-to-sass";
-import { choices } from "mart-desing-token";
+import { genSingleFile } from "mart-obj-to-sass";
+import { choices, decisions } from "mart-desing-token";
 
-const folder = "./packages/core/sass/setting";
+const path = "./packages/core/sass/tokens/";
+const folderChoices = path + "choices";
+const folderDecisions = path + "decisions";
 
-async function genFiles() {
-  await genFilesWithStruct(choices, folder, true);
-}
-
-genFiles();
+genSingleFile(choices, folderChoices, "choices");
+genSingleFile(decisions, folderDecisions, "decisions");
