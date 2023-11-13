@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   mart-desing-token:
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: ^1.1.1
+    version: 1.1.1
   mart-obj-to-sass:
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: ^1.1.2
+    version: 1.1.2
   react:
     specifier: ^18
     version: 18.2.0
@@ -5706,12 +5706,12 @@ packages:
       react: 18.2.0
     dev: true
 
-  /mart-desing-token@1.0.0:
-    resolution: {integrity: sha512-xrhEPXFa7nSDIwJkDD6qLcRdb1nnTixIwzBi3vYUTJAvN69wgAuqal3H2jMvGAEmD2id7UFHti66kiW/2w0xhQ==}
+  /mart-desing-token@1.1.1:
+    resolution: {integrity: sha512-A37O/j2hG0azsx6d0gy++W6JznYHeQ7uFK5LCRGeb1Ea58/gHToCFnb6GsGnK1SKB72ZYFm99R3mQEHNBKIZjA==}
     dev: false
 
-  /mart-obj-to-sass@1.0.0:
-    resolution: {integrity: sha512-gdaDqkeqsWrxE/ADYaWoA/7Q644g3vhrQydqSvmjiA54Jr2cXwadVzYySb3depb4EgxIxL6ieG/is7g6MjoeRQ==}
+  /mart-obj-to-sass@1.1.2:
+    resolution: {integrity: sha512-CgmFkcgr9d3ycHQZqk5J7T5UAnX9zJCWioBhqwRDIKpuLiZjQvaK0v9z7J31PeCiqbLyLgItlZUPUgsLaPjymA==}
     dev: false
 
   /mdast-util-definitions@4.0.0:

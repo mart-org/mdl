@@ -27,8 +27,8 @@
   "author": "Jefferson Lopez <jeffersonlopezmendoza343@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "mart-desing-token": "^1.0.0",
-    "mart-obj-to-sass": "^1.0.0",
+    "mart-desing-token": "^1.1.1",
+    "mart-obj-to-sass": "^1.1.2",
     "react": "^18",
     "react-dom": "^18.2.0"
   },
