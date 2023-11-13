@@ -5,9 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  mart-dl:
-    specifier: ^0.0.6
-    version: 0.0.6
+  mart-desing-token:
+    specifier: ^1.0.0
+    version: 1.0.0
+  mart-obj-to-sass:
+    specifier: ^1.0.0
+    version: 1.0.0
   react:
     specifier: ^18
     version: 18.2.0
@@ -5703,19 +5706,12 @@ packages:
       react: 18.2.0
     dev: true
 
-  /mart-dl@0.0.4:
-    resolution: {integrity: sha512-3jlUo0fB9hc/G6Xcv8Wy+WIfEoX1SBUqrBWbhoPIpcqad0tF5GTjDoBoH/HxCm7XH5akp7J8UxiFpHmqhWevHw==}
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+  /mart-desing-token@1.0.0:
+    resolution: {integrity: sha512-xrhEPXFa7nSDIwJkDD6qLcRdb1nnTixIwzBi3vYUTJAvN69wgAuqal3H2jMvGAEmD2id7UFHti66kiW/2w0xhQ==}
     dev: false
 
-  /mart-dl@0.0.6:
-    resolution: {integrity: sha512-szS9ZFErC2TVopZi3U0oluagXYEs/WZ5CpiaPPLCKE0RtWEsZBVlvkJMQAe5X7laSLW2n/S+E9uKOjHuVfTMOA==}
-    dependencies:
-      mart-dl: 0.0.4
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+  /mart-obj-to-sass@1.0.0:
+    resolution: {integrity: sha512-gdaDqkeqsWrxE/ADYaWoA/7Q644g3vhrQydqSvmjiA54Jr2cXwadVzYySb3depb4EgxIxL6ieG/is7g6MjoeRQ==}
     dev: false
 
   /mdast-util-definitions@4.0.0:

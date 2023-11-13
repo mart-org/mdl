@@ -9,6 +9,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["packages/**/**/*.tsx"],
+  "include": ["packages", "scripts"],
   "exclude": ["node_modules", "packages/**/**/stories"]
 }
