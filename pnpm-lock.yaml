@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.1.1
     version: 1.1.1
   mart-obj-to-sass:
-    specifier: ^1.1.2
-    version: 1.1.2
+    specifier: ^1.2.2
+    version: 1.2.2
   react:
     specifier: ^18
     version: 18.2.0
@@ -5710,8 +5710,8 @@ packages:
     resolution: {integrity: sha512-A37O/j2hG0azsx6d0gy++W6JznYHeQ7uFK5LCRGeb1Ea58/gHToCFnb6GsGnK1SKB72ZYFm99R3mQEHNBKIZjA==}
     dev: false
 
-  /mart-obj-to-sass@1.1.2:
-    resolution: {integrity: sha512-CgmFkcgr9d3ycHQZqk5J7T5UAnX9zJCWioBhqwRDIKpuLiZjQvaK0v9z7J31PeCiqbLyLgItlZUPUgsLaPjymA==}
+  /mart-obj-to-sass@1.2.2:
+    resolution: {integrity: sha512-1YI7CBjadGmov/7B6bybDrIMdvZCb1t08l+RPIz7fBeePcpdCVewwCYWh/MJXuJAeMsq9E31tQNwCs6NSwnKDw==}
     dev: false
 
   /mdast-util-definitions@4.0.0:

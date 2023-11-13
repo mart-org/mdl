@@ -9,7 +9,7 @@
     "dev": "npm run watch-dev",
     "watch-sass": "sass --watch src/sass/index.scss:src/sass/index.css",
     "build": "sass src/sass/index.scss:src/sass/index.css && pnpm run tsc",
-    "build-tokens-sass": "node ./scripts/buildTokensToSass",
+    "build:gen-files-sass": "node ./scripts/buildTokensToSass",
     "tsc": "tsc",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "mart-desing-token": "^1.1.1",
-    "mart-obj-to-sass": "^1.1.2",
+    "mart-obj-to-sass": "^1.2.2",
     "react": "^18",
     "react-dom": "^18.2.0"
   },
